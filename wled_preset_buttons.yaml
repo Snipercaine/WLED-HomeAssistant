@@ -4,6 +4,7 @@ cards:
     cards:
       - entity: input_boolean.preset_1
         icon: 'mdi:numeric-1-circle'
+        aspect_ratio: 2/1
         name: Preset_1
         show_state: false
         tap_action:
@@ -11,10 +12,11 @@ cards:
           service: mqtt.publish
           service_data:
             topic: wled/all/api
-            payload: 'PL=1'
+            payload: PL=1
         type: 'custom:button-card'
       - entity: input_boolean.preset_2
         icon: 'mdi:numeric-2-circle'
+        aspect_ratio: 2/1
         name: Preset_2
         show_state: false
         tap_action:
@@ -22,10 +24,11 @@ cards:
           service: mqtt.publish
           service_data:
             topic: wled/all/api
-            payload: 'PL=2'
+            payload: PL=2
         type: 'custom:button-card'
       - entity: input_boolean.preset_3
         icon: 'mdi:numeric-3-circle'
+        aspect_ratio: 2/1
         name: Preset_3
         show_state: false
         tap_action:
@@ -37,6 +40,7 @@ cards:
         type: 'custom:button-card'
       - entity: input_boolean.preset_4
         icon: 'mdi:numeric-4-circle'
+        aspect_ratio: 2/1
         name: Preset_4
         show_state: false
         tap_action:
@@ -50,6 +54,7 @@ cards:
     cards:
       - entity: input_boolean.preset_5
         icon: 'mdi:numeric-5-circle'
+        aspect_ratio: 2/1
         name: Preset_5
         show_state: false
         tap_action:
@@ -61,6 +66,7 @@ cards:
         type: 'custom:button-card'
       - entity: input_boolean.preset_6
         icon: 'mdi:numeric-6-circle'
+        aspect_ratio: 2/1
         name: Preset_6
         show_state: false
         tap_action:
@@ -72,6 +78,7 @@ cards:
         type: 'custom:button-card'
       - entity: input_boolean.preset_7
         icon: 'mdi:numeric-7-circle'
+        aspect_ratio: 2/1
         name: Preset_7
         show_state: false
         tap_action:
@@ -83,6 +90,7 @@ cards:
         type: 'custom:button-card'
       - entity: input_boolean.preset_8
         icon: 'mdi:numeric-8-circle'
+        aspect_ratio: 2/1
         name: Preset_8
         show_state: false
         tap_action:
@@ -96,6 +104,7 @@ cards:
     cards:
       - entity: input_boolean.preset_9
         icon: 'mdi:numeric-9-circle'
+        aspect_ratio: 2/1
         name: Preset_9
         show_state: false
         tap_action:
@@ -107,6 +116,7 @@ cards:
         type: 'custom:button-card'
       - entity: input_boolean.preset_10
         icon: 'mdi:numeric-0-circle'
+        aspect_ratio: 2/1
         name: Preset_10
         show_state: false
         tap_action:
@@ -118,6 +128,7 @@ cards:
         type: 'custom:button-card'
       - entity: input_boolean.preset_11
         icon: 'mdi:numeric-1-circle-outline'
+        aspect_ratio: 2/1
         name: Preset_11
         show_state: false
         tap_action:
@@ -129,6 +140,7 @@ cards:
         type: 'custom:button-card'
       - entity: input_boolean.preset_12
         icon: 'mdi:numeric-2-circle-outline'
+        aspect_ratio: 2/1
         name: Preset_12
         show_state: false
         tap_action:
@@ -142,6 +154,7 @@ cards:
     cards:
       - entity: input_boolean.preset_3
         icon: 'mdi:numeric-3-circle-outline'
+        aspect_ratio: 2/1
         name: Preset_13
         show_state: false
         tap_action:
@@ -153,6 +166,7 @@ cards:
         type: 'custom:button-card'
       - entity: input_boolean.preset_14
         icon: 'mdi:numeric-4-circle-outline'
+        aspect_ratio: 2/1
         name: Preset_14
         show_state: false
         tap_action:
@@ -164,6 +178,7 @@ cards:
         type: 'custom:button-card'
       - entity: input_boolean.preset_15
         icon: 'mdi:numeric-5-circle-outline'
+        aspect_ratio: 2/1
         name: Preset_15
         show_state: false
         tap_action:
@@ -175,6 +190,7 @@ cards:
         type: 'custom:button-card'
       - entity: input_boolean.preset_16
         icon: 'mdi:numeric-6-circle-outline'
+        aspect_ratio: 2/1
         name: Preset_16
         show_state: false
         tap_action:
