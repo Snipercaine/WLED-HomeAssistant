@@ -1,0 +1,72 @@
+#############################################################
+  - platform: mqtt
+    name: WLED_Master_Brightness
+    state_topic: LEDS/Master_Brightness
+#############################################################
+  - platform: mqtt
+    name: WLED_Primary_Color_RGB
+    state_topic: LEDS/Primary_Color_RGB
+#############################################################
+  - platform: mqtt
+    name: WLED_Secondary_Color_RGB
+    state_topic: LEDS/Secondary_Color_RGB
+#############################################################
+  - platform: mqtt
+    name: WLED_Notification_Sending_on
+    state_topic: LEDS/Notification_Sending_on
+#############################################################
+  - platform: mqtt
+    name: WLED_Notification_Receive_on
+    state_topic: LEDS/Notification_Receive_on
+#############################################################
+  - platform: mqtt
+    name: WLED_Nightlight_active
+    state_topic: LEDS/Nightlight_active
+#############################################################
+  - platform: mqtt
+    name: WLED_Nightlight_Fade_on
+    state_topic: LEDS/Nightlight_Fade_on
+#############################################################
+  - platform: mqtt
+    name: WLED_Nightlight_delay
+    state_topic: LEDS/Nightlight_delay
+#############################################################
+  - platform: mqtt
+    name: WLED_Nightlight_target_brightness
+    state_topic: LEDS/Nightlight_target_brightness
+#############################################################
+  - platform: mqtt
+    name: WLED_Effect_index
+    state_topic: LEDS/Effect_index
+#############################################################
+  - platform: mqtt
+    name: WLED_Effect_speed
+    state_topic: LEDS/Effect_speed
+#############################################################
+  - platform: mqtt
+    name: WLED_Effect_intensity
+    state_topic: LEDS/Effect_intensity
+#############################################################
+  - platform: mqtt
+    name: WLED_FastLED_palette
+    state_topic: LEDS/FastLED_palette
+#############################################################
+  - platform: mqtt
+    name: WLED_Primary_White_value
+    state_topic: LEDS/Primary_White_value
+#############################################################
+  - platform: mqtt
+    name: WLED_Secondary_White_value
+    state_topic: LEDS/Secondary_White_value
+#############################################################
+  - platform: mqtt
+    name: WLED_RGB_or_HSB_UI_mode
+    state_topic: LEDS/RGB_or_HSB_UI_mode
+#############################################################
+  - platform: mqtt
+    name: WLED_Server_description
+    state_topic: LEDS/Server_description
+#############################################################
+  - platform: mqtt
+    name: WLED_Toggle_Preset_cycle
+    state_topic: LEDS/Toggle_Preset_cycle
