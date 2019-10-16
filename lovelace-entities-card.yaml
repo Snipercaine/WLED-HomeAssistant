@@ -1,0 +1,22 @@
+type: entities
+entities:
+  - entity: sensor.wled_master_brightness
+  - entity: sensor.wled_effect_index
+  - entity: sensor.wled_fastled_palette
+  - entity: sensor.wled_primary_color_rgb
+  - entity: sensor.wled_secondary_color_rgb
+  - entity: sensor.wled_effect_intensity
+  - entity: sensor.wled_effect_speed
+  - entity: sensor.wled_notification_receive_on
+  - entity: sensor.wled_notification_sending_on
+  - entity: sensor.wled_primary_white_value
+  - entity: sensor.wled_secondary_white_value
+  - entity: sensor.wled_nightlight_active
+  - entity: sensor.wled_nightlight_delay
+  - entity: sensor.wled_nightlight_fade_on
+  - entity: sensor.wled_nightlight_target_brightness
+  - entity: sensor.wled_rgb_or_hsb_ui_mode
+  - entity: sensor.wled_toggle_preset_cycle
+  - entity: sensor.wled_server_description
+title: WLED Settings
+show_header_toggle: false
