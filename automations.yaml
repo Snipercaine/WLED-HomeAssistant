@@ -1,0 +1,53 @@
+- id: wled_speed
+  alias: wled_speed
+  trigger:
+  - entity_id: input_number.ledspeed
+    platform: state
+  condition: []
+  action:
+  - data_template:
+      topic: wled/all/api
+      payload: SX={{ states('input_number.ledspeed') | int }}
+    service: mqtt.publish
+- id: wled_intensity
+  alias: wled_intensity
+  trigger:
+  - entity_id: input_number.ledintensity
+    platform: state
+  condition: []
+  action:
+  - data_template:
+      topic: wled/all/api
+      payload: IX={{ states('input_number.ledintensity') | int }}
+    service: mqtt.publish
+- id: wled_brightness
+  alias: wled_brightness
+  trigger:
+  - entity_id: input_number.ledbrightness
+    platform: state
+  condition: []
+  action:
+  - data_template:
+      topic: wled/all/api
+      payload: A={{ states('input_number.ledintensity') | int }}
+    service: mqtt.publish
+- alias: WLED Palette
+  trigger:
+  - platform: state
+    entity_id: input_select.wled_palette_list
+  condition: []
+  action:
+  - service: mqtt.publish
+    data_template:
+      topic: wled/all/api
+      payload: FP={{ states('input_select.wled_palette_list') | int }}
+- alias: WLED Presets
+  trigger:
+  - platform: state
+    entity_id: input_select.wled_presets
+  condition: []
+  action:
+  - service: mqtt.publish
+    data_template:
+      topic: wled/all/api
+      payload: PL={{ states('input_select.wled_presets') | int }} 
