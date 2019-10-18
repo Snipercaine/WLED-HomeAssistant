@@ -62,3 +62,23 @@ input_select:
       - "[38] Light Pink"
       - "[39] Autumn"
       - "[40] Magenta"
+
+input_number:
+  ledspeed:
+    name: Speed
+    initial: 0
+    min: 0
+    max: 255
+    step: 1
+  ledintensity:
+    name: LED Intensity
+    initial: 0
+    min: 0
+    max: 255
+    step: 1
+  ledbrightness:
+    name: LED Brightness
+    initial: 0
+    min: 0
+    max: 255
+    step: 1
