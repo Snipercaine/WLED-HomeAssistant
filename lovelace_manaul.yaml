@@ -1,0 +1,17 @@
+cards:
+  - entity: light.wled_lights
+    type: 'custom:light-entity-card'
+  - entities:
+      - input_number.ledspeed
+      - input_number.ledintensity
+      - input_number.ledbrightness
+    type: entities
+  - cards:
+      - entities:
+          - input_select.wled_palette_list
+        type: entities
+      - entities:
+          - input_select.wled_presets
+        type: entities
+    type: horizontal-stack
+type: vertical-stack
