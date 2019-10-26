@@ -31,7 +31,8 @@
       topic: wled/all/api
       payload: A={{ states('input_number.ledintensity') | int }}
     service: mqtt.publish
-- alias: WLED Palette
+- id: wled_palette
+  alias: WLED Palette
   trigger:
   - platform: state
     entity_id: input_select.wled_palette_list
@@ -40,8 +41,9 @@
   - service: mqtt.publish
     data_template:
       topic: wled/all/api
-      payload: FP={{ states('input_select.wled_palette_list') | int }}
-- alias: WLED Presets
+      payload: "{{ states('input_select.wled_palette_list') }}"
+- id: wled_presets
+  alias: WLED Presets
   trigger:
   - platform: state
     entity_id: input_select.wled_presets
@@ -50,4 +52,5 @@
   - service: mqtt.publish
     data_template:
       topic: wled/all/api
-      payload: PL={{ states('input_select.wled_presets') | int }} 
+      payload: "{{ states('input_select.wled_presets') }}"
+
