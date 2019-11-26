@@ -1,7 +1,7 @@
 type: horizontal-stack
 cards:
   - type: 'custom:button-card'
-    entity: input_select.select_option
+    entity: light.wled_lights
     name: Preset 1
     icon: 'mdi:pine-tree'
     tap_action:
@@ -16,7 +16,7 @@ cards:
       service_data:
         entity_id: light.wled_lights
   - type: 'custom:button-card'
-    entity: input_select.select_option
+    entity: light.wled_lights
     name: Preset 2
     icon: 'mdi:pine-tree'
     tap_action:
@@ -31,7 +31,7 @@ cards:
       service_data:
         entity_id: light.wled_lights
   - type: 'custom:button-card'
-    entity: input_select.select_option
+    entity: light.wled_lights
     name: Preset 3
     icon: 'mdi:pine-tree'
     tap_action:
@@ -46,7 +46,7 @@ cards:
       service_data:
         entity_id: light.wled_lights
   - type: 'custom:button-card'
-    entity: input_select.select_option
+    entity: light.wled_lights
     name: Preset 4
     icon: 'mdi:pine-tree'
     tap_action:
