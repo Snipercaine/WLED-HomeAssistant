@@ -20,17 +20,6 @@
       topic: wled/all/api
       payload: IX={{ states('input_number.ledintensity') | int }}
     service: mqtt.publish
-- id: wled_brightness
-  alias: wled_brightness
-  trigger:
-  - entity_id: input_number.ledbrightness
-    platform: state
-  condition: []
-  action:
-  - data_template:
-      topic: wled/all/api
-      payload: A={{ states('input_number.ledintensity') | int }}
-    service: mqtt.publish
 - id: wled_palette
   alias: WLED Palette
   trigger:
