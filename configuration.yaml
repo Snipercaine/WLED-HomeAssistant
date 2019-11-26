@@ -166,9 +166,3 @@ input_number:
     min: 0
     max: 255
     step: 1
-  ledbrightness:
-    name: LED Brightness
-    initial: 0
-    min: 0
-    max: 255
-    step: 1
