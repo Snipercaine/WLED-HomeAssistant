@@ -1,0 +1,20 @@
+- alias: Christmas LED Sunset
+  hide_entity: true
+  initial_state: true
+  trigger:
+  - platform: sun
+    event: sunset
+  condition:
+  - condition: template
+    value_template: '{{ now().month == 12 }}'
+  action:
+  - service: light.turn_on
+    data:
+      entity_id: light.wled_lights
+      effect: "[FX=44] Merry Christmas"
+  - delay: 05:00:00
+  - service: light.turn_off
+    data:
+      entity_id: light.wled_lights
+      effect: "[FX=00] Solid"
+  id: 4ff77dd5be9d447194f57ff600147152
