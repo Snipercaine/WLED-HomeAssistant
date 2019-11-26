@@ -1,0 +1,8 @@
+type: 'custom:button-card'
+entity: light.wled_lights
+name: Preset 1
+icon: 'mdi:pine-tree'
+action: service
+service: input_select.select_option
+service_data:
+  option: '[PL=01] Preset 1'
