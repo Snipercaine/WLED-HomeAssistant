@@ -154,6 +154,15 @@ input_select:
       - "[FP=38] Light Pink"
       - "[FP=39] Autumn"
       - "[FP=40] Magenta"
+      - "[FP=41] Magred"
+      - "[FP=42] Yelmag"
+      - "[FP=43] Yelblu"
+      - "[FP=44] Orange & Teal"
+      - "[FP=45] Tiamat"
+      - "[FP=46] April Night"
+      - "[FP=47] Orangery"
+      - "[FP=48] C9"
+      - "[FP=49] Sakura"
 
 input_number:
   ledspeed:
