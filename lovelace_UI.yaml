@@ -4,7 +4,6 @@ cards:
   - entities:
       - input_number.ledspeed
       - input_number.ledintensity
-      - input_number.ledbrightness
     type: entities
   - cards:
       - entities:
