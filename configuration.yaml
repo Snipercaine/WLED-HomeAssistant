@@ -172,7 +172,7 @@ input_number:
     max: 255
     step: 1
   ledintensity:
-    name: LED Intensity
+    name: Intensity
     initial: 0
     min: 0
     max: 255
