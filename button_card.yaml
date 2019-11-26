@@ -1,15 +1,62 @@
-type: 'custom:button-card'
-entity: input_select.select_option
-name: Preset 1
-icon: 'mdi:pine-tree'
-tap_action:
-  action: call-service
-  service: input_select.select_option
-  service_data:
-    entity_id: input_select.wled_presets
-    option: '[PL=02] Preset 2'
-hold_action:
-  action: call-service
-  service: light.toggle
-  service_data:
-    entity_id: light.wled_lights
+type: horizontal-stack
+cards:
+  - type: 'custom:button-card'
+    entity: input_select.select_option
+    name: Preset 1
+    icon: 'mdi:pine-tree'
+    tap_action:
+      action: call-service
+      service: input_select.select_option
+      service_data:
+        entity_id: input_select.wled_presets
+        option: '[PL=01] Preset 1'
+    hold_action:
+      action: call-service
+      service: light.toggle
+      service_data:
+        entity_id: light.wled_lights
+  - type: 'custom:button-card'
+    entity: input_select.select_option
+    name: Preset 2
+    icon: 'mdi:pine-tree'
+    tap_action:
+      action: call-service
+      service: input_select.select_option
+      service_data:
+        entity_id: input_select.wled_presets
+        option: '[PL=02] Preset 2'
+    hold_action:
+      action: call-service
+      service: light.toggle
+      service_data:
+        entity_id: light.wled_lights
+  - type: 'custom:button-card'
+    entity: input_select.select_option
+    name: Preset 3
+    icon: 'mdi:pine-tree'
+    tap_action:
+      action: call-service
+      service: input_select.select_option
+      service_data:
+        entity_id: input_select.wled_presets
+        option: '[PL=03] Preset 3'
+    hold_action:
+      action: call-service
+      service: light.toggle
+      service_data:
+        entity_id: light.wled_lights
+  - type: 'custom:button-card'
+    entity: input_select.select_option
+    name: Preset 4
+    icon: 'mdi:pine-tree'
+    tap_action:
+      action: call-service
+      service: input_select.select_option
+      service_data:
+        entity_id: input_select.wled_presets
+        option: '[PL=04] Preset 4'
+    hold_action:
+      action: call-service
+      service: light.toggle
+      service_data:
+        entity_id: light.wled_lights
