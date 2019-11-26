@@ -88,6 +88,8 @@ light:
     - "[FX=78] Railway"
     - "[FX=79] Ripple"
     - "[FX=80] Twinklefox"
+    - "[FX=81] Twinklecat"
+    - "[FX=82] Halloween Eyes"
 
 input_select:
   wled_presets:
