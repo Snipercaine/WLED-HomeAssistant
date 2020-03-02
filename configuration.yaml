@@ -90,6 +90,24 @@ light:
     - "[FX=80] Twinklefox"
     - "[FX=81] Twinklecat"
     - "[FX=82] Halloween Eyes"
+    - "[FX=83] Solid Pattern"
+    - "[FX=84] Solid Pattern Tri"
+    - "[FX=85] Spots"
+    - "[FX=86] Spots Fade"
+    - "[FX=87] Glitter"
+    - "[FX=88] Candle"
+    - "[FX=89] Fireworks Starburst"
+    - "[FX=90] Fireworks 1D"
+    - "[FX=91] Bouncing Balls"
+    - "[FX=92] Sinelon"
+    - "[FX=93] Sinelon Dual"
+    - "[FX=94] Sinelon Rainbow"
+    - "[FX=95] Popcorn"
+    - "[FX=96] Drip"
+    - "[FX=97] Plasma"
+    - "[FX=98] Percent"
+    - "[FX=99] Ripple Rainbow"
+    - "[FX=100] Heartbeat"
 
 input_select:
   wled_presets:
@@ -163,6 +181,7 @@ input_select:
       - "[FP=47] Orangery"
       - "[FP=48] C9"
       - "[FP=49] Sakura"
+      - "[FP=50] Aurora"
 
 input_number:
   ledspeed:
